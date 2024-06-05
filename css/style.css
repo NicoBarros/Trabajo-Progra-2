@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: #faf0f5 !important;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #efd1e2 !important;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #efd1e2 !important;
+    border-color: #c4a6b7 !important;
+}
+
+.btn-primary:hover {
+    background-color: #eab0d1 !important;
+}
+
+.error-message {
+    font-size: 0.875em;
+    color: #d780b1;
+    margin-top: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #d780b1;
+    text-align: center;
+    padding: 10px 0;
+}

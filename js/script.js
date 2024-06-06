@@ -141,13 +141,13 @@ function validarnumero() {
     if (phone === '') {
         phoneError.textContent = 'El número de teléfono es obligatorio.';
         return false;
-    } else if (isNaN(telefono.slice(1))) {
+    } else if (isNaN(phone.slice(1))) {
         phoneError.textContent = "Por favor ingrese un numero de telefono válido";
         return false;
-    } else if (!telefono.startsWith("+")) {
+    } else if (!phone.startsWith("+")) {
        phoneError.textContent = "El número de telefonico debe tener +";
         return false;
-    } else if (telefono.length > 16 || telefono.length < 12) { 
+    } else if (phone.length > 16 || phone.length < 12) { 
         phoneError.textContent = "El teléfono debe tener entre 12 y 15 dígitos, incluyendo el '+'";
         return false;
     } else {
